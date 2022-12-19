@@ -1,0 +1,30 @@
+{
+  "grading_scheme" : {
+    "Tutorial Exercises" : 10.0,
+    "Labs" : 10.0,
+    "Tests" : 30.0,
+    "Final Exam" : 50
+  },
+  "subitems" : {
+    "Tutorial Exercises" :
+        ["Tutorial Exercise #1", "Tutorial Exercise #2", "Tutorial Exercise #3",
+         "Tutorial Exercise #4", "Tutorial Exercise #5", "Tutorial Exercise #6",
+         "Tutorial Exercise #7"],
+    "Labs" : ["Marcet Boiler Lab", "Compression Tester"],
+    "Tests" : ["Test 1", "Test 2"],
+    "Final Exam" : false
+  },
+  "drop_lowest" : {
+    "Tutorial Exercises" : true,
+    "Labs" : false,
+    "Tests" : false,
+    "Final Exam" : false
+  },
+  "excused" : {
+    "abcstudent" : ["Test 2"],
+    "xyzstudent" : ["Test 2"]
+  },
+  "replace_if_better" : {
+    "Tests" : "Final Exam"
+  }
+}
